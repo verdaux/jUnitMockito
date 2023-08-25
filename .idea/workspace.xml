@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c7c0770-e0d3-4e3d-80a9-29876b9ab6c8" name="Changes" comment="Converted to Spring Boot project.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/dao/ApplicationDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/models/CollegeStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/models/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/models/StudentGrades.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/service/ApplicationService.java" afterDir="false" />
+    <list default="true" id="5c7c0770-e0d3-4e3d-80a9-29876b9ab6c8" name="Changes" comment="Added required files to Spring Boot project.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springmvc/MvcTestingExampleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/MvcTestingExampleApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springmvc/models/CollegeStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/models/CollegeStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springmvc/service/ApplicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/service/ApplicationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/springmvc/test/MockAnnotationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springmvc/test/MockAnnotationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +71,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MockAnnotationTest.assertEqualsTestAddGrades">
     <configuration name="MvcTestingExampleApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springmvc.MvcTestingExampleApplication" />
       <module name="jUnitMockito" />
@@ -89,8 +85,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in jUnitMockito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jUnitMockito" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockAnnotationTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="jUnitMockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springmvc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springmvc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.springmvc.test.MockAnnotationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockAnnotationTest.assertEqualsTestAddGrades" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jUnitMockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springmvc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springmvc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.springmvc.test.MockAnnotationTest" />
+      <option name="METHOD_NAME" value="assertEqualsTestAddGrades" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockAnnotationTest.tester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jUnitMockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springmvc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springmvc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.springmvc.test.MockAnnotationTest" />
+      <option name="METHOD_NAME" value="tester" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MockAnnotationTest.assertEqualsTestAddGrades" />
+        <item itemvalue="JUnit.MockAnnotationTest.tester" />
+        <item itemvalue="JUnit.All in jUnitMockito" />
         <item itemvalue="Application.MvcTestingExampleApplication" />
       </list>
     </recent_temporary>
@@ -118,12 +172,20 @@
       <option name="project" value="LOCAL" />
       <updated>1692950250101</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added required files to Spring Boot project.">
+      <created>1692959174085</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692959174085</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial project commit." />
     <MESSAGE value="Converted to Spring Boot project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Converted to Spring Boot project." />
+    <MESSAGE value="Added required files to Spring Boot project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added required files to Spring Boot project." />
   </component>
 </project>

@@ -1,5 +1,8 @@
 package com.springmvc.models;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class CollegeStudent implements Student {
     private int id;
     private String firstname;
